@@ -88,16 +88,16 @@ gsap.from("#intro-div h1:nth-child(2)", {
   duration: 1,
   opacity: 0
 })
-gsap.from("#intro-div h1:nth-child(3)", {
-  scrollTrigger: {
-    trigger: "#intro-div h1:nth-child(3)",
-    scroller: "#main",
-    // markers: true,
-    start: "top 60%",
-  },
-  opacity: 0,
-  duration: 1,
-})
+// gsap.from("#intro-div h1:nth-child(3)", {
+//   scrollTrigger: {
+//     trigger: "#intro-div h1:nth-child(3)",
+//     scroller: "#main",
+//     // markers: true,
+//     start: "top 60%",
+//   },
+//   opacity: 0,
+//   duration: 1,
+// })
 
 gsap.from(".box h4", {
   opacity: 0,
